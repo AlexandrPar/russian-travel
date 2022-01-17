@@ -1,0 +1,6 @@
+.lead__image_map{
+    grid-column: 2/19;
+  grid-row: 2/8;
+  z-index: 1;
+  align-self: end;
+}

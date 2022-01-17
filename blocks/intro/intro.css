@@ -1,9 +1,13 @@
 .intro {
-  max-width: 948px;
+  max-width: 76.8vw;
   min-height: 429px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 92px 442px 0 148px;
+  flex-wrap: wrap;
+  margin-top: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding: 0;
 }
