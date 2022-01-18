@@ -1,4 +1,5 @@
 .gallery__item{
+    max-height: 264px;
     margin: 0;
     padding: 0;
 }

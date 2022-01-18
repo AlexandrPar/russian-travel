@@ -1,4 +1,4 @@
-.lead__subtitel{
+.lead__subtitel {
   max-width: 640px;
   font-style: normal;
   font-weight: normal;
@@ -10,4 +10,16 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 64px;
+}
+
+@media screen and (max-width: 425px) {
+  .lead__subtitel {
+  max-width: 288px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+} 
 }

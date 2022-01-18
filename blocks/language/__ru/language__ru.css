@@ -9,3 +9,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 425px) {
+  .language__ru {
+  font-size: 18px;
+  line-height: 20px;
+} 
+}
