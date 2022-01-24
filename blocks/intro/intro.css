@@ -1,6 +1,5 @@
 .intro {
   max-width: 720px;
-  min-height: 429px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -18,18 +17,20 @@
     margin-left: 48px;
     margin-right: auto;
     margin-bottom: 0;
-    padding: 0;
+    padding: 0 0 92px 0;
   }
 } 
 
 @media screen and (max-width: 768px) {
   .intro {
     margin: 88px 14px;
+    padding: 0;
   }
 } 
 
 @media screen and (max-width: 425px) {
   .intro {
     margin: 64px 14px;
+    padding: 0;
   }
 }
