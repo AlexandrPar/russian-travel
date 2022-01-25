@@ -5,7 +5,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 92px;
-  margin-left: 148px;
+  margin-left: 100px;
   margin-right: auto;
   margin-bottom: 0;
   padding: 0 0 92px 0;
@@ -13,24 +13,20 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin-top: 92px;
     margin-left: 48px;
-    margin-right: auto;
-    margin-bottom: 0;
-    padding: 0 0 92px 0;
   }
-} 
+}
 
 @media screen and (max-width: 768px) {
   .intro {
     margin: 88px 14px;
     padding: 0;
   }
-} 
+}
 
 @media screen and (max-width: 425px) {
   .intro {
+    max-width: 288px;
     margin: 64px 14px;
-    padding: 0;
   }
 }

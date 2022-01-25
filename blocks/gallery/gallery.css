@@ -1,5 +1,5 @@
-.gallery{
-    max-width: 92.5vw;
+.gallery {
+    max-width: 100vw;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(225px, 1fr));
@@ -10,8 +10,21 @@
     padding: 0 0 92px 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .gallery {
+        max-width: 928px;
+        padding: 0 0 64px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        max-width: 720px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .gallery {
-        padding: 0 0 64px 0;
-}
+        max-width: 288px;
+    }
 }

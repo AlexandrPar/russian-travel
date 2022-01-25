@@ -1,28 +1,19 @@
-.cover{
-  max-width: 100vw;
-  min-height: 740px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 92px;
+.cover {
+  margin-top: 44px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    min-height: 480px;
     margin-top: 90px;
-    padding: 0;
   }
-} 
+}
 
 @media screen and (max-width: 425px) {
   .cover {
-    min-height: 200px;
     margin-top: 66px;
-    padding: 0;
   }
-} 
+}
