@@ -22,9 +22,13 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    margin: 25px 0 0 0;
+    margin: 73px 0 0 0;
     grid-template-columns: 340px 1fr;
     grid-column-gap: 28px;
+  }
+
+  .place:last-child {
+    margin: 24px 0 0 0;
   }
 }
 
